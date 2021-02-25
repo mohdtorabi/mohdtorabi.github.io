@@ -17,6 +17,7 @@
         <link href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css" rel="stylesheet" />
         <!-- Core theme CSS (includes Bootstrap)-->
         <link href="css/styles.css" rel="stylesheet" />
+        <link href="css/project.css" rel="stylesheet" />
     </head>
     <body id="page-top">
         <!-- Navigation-->
@@ -29,7 +30,7 @@
                 <div class="collapse navbar-collapse" id="navbarResponsive">
                     <ul class="navbar-nav ml-auto my-2 my-lg-0">
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#about">About</a></li>
-                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Services</a></li>
+                        <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#services">Stack</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#portfolio">Portfolio</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#resume">Resume</a></li>
                         <li class="nav-item"><a class="nav-link js-scroll-trigger" href="#contact">Contact</a></li>
@@ -42,7 +43,7 @@
             <div class="container h-100">
                 <div class="row h-100 align-items-center justify-content-center text-center">
                     <div class="col-lg-10 align-self-end">
-                        <h1 class="text-uppercase text-white font-weight-bold">Junior Web Developer</h1>
+                        <h1 class="text-uppercase text-white font-weight-bold">Full-Stack Web Developer</h1>
                         <hr class="divider my-4" />
                     </div>
                     <div class="col-lg-8 align-self-baseline">
@@ -68,7 +69,110 @@
                 </div>
             </div>
         </section>
-        <!-- Services-->
+        <!-- Portfolio-->
+          <!-- <div id="portfolio">
+            <div class="container-fluid">
+                <div class="row">
+                    <div class="col-md-6 col-sm-6">
+                        <a class="portfolio-box" href="assets/img/statArena.png" style="margin-top:1rem">
+                            <img class="img-fluid" src="assets/img/statArena.png" alt=""/>
+                            <div class="portfolio-box-caption">
+                                <h1 style="font-family: monospace;">StatArena</h1>
+                                <h5 style="font-family: monospace;">Enhanced warzone gaming experience, view & compare realtime
+                                  stats, overlays for twitch, view Twitch Top 20 live-streams for warzone and search anything on twitch directly from the website, roulette for random equipment.</h4>
+                                <h6 style="font-family: monospace;">Tech-Stack: Node.js, React.js, Express, Axios, Redis, MySQL, Twitch
+                                  API, Call-of-Duty API, Material UI</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6" >
+                        <a class="portfolio-box" href="assets/img/scheduler.png" style="margin-top:1rem">
+                            <img class="img-fluid" src="assets/img/scheduler.png" alt=""/>
+                            <div class="portfolio-box-caption">
+                              <h1 style="font-family: monospace;">Scheduler</h1>
+                              <h5 style="font-family: monospace;">The Interview Scheduler is a single-page app that allows viewing, adding, editing and cancelling appointments with interviewers.</h4>
+                              <h6 style="font-family: monospace;">Tech-Stack: Axios React Webpack, Babel, Sass, Node.js, Express.Js Postgresql, Storybook, Webpack Dev Server, Jest, Testing Library, Cypress</h6>
+                            </div>
+                        </a>
+                    </div>
+                    <div class="col-md-6 col-sm-6">
+                      <a class="portfolio-box" href="assets/img/jungle.png" style="margin:1rem 0 1rem 0 ">
+                          <img class="img-fluid" src="assets/img/jungle.png" alt=""/>
+                          <div class="portfolio-box-caption" >
+                            <h1 style="font-family: monospace;">Jungle On Rails</h1>
+                            <h5 style="font-family: monospace;">A mini e-commerce application built with Rails 4.2 Using Stripe to order items and "make payments". Model and Feature testing is done with Rspec. Also using basic http authentication in ruby to secure the "admin" side the site.</h4>
+                          </div>
+                      </a>
+                  </div>
+                    <div class="col-md-6 col-sm-6" >
+                        <a class="portfolio-box" href="assets/img/pass1.png" style="margin:1rem 0 1rem 0 ">
+                            <img class="img-fluid" src="assets/img/pass1.png" alt="" />
+                            <div class="portfolio-box-caption">
+                              <h1 style="font-family: monospace;">PasswordKeeper</h1>
+                              <h5 style="font-family: monospace;">A secure app that shares passwords between employers of a specific. organization.</h4>
+                              <h6 style="font-family: monospace;">Tech-Stack: Node.js, body-parser, chalk, express, jquery, morgan, node-sass-middleware, pg, pg-native, bcrypt, method-override</h6>
+                            </div>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div> -->
+        <div id="projects" >
+            <div>
+              <img class="projectImage" src="assets/img/statArena.png" alt=""/>
+            </div>
+            <div class="projectCaption">
+              <h1 >StatArena</h1>
+              <div class="line">
+                <h5>Enhanced warzone gaming experience, view & compare realtime stats, overlays</h5>
+                <h5> for twitch, view Twitch Top 20 live-streams for warzone and search anything on </h5>
+                <h5> directly from the website, roulette for random equipment.</h5>
+                <h6>
+                  Tech-Stack: Node.js, React.js, Express, Axios, Redis, MySQL, Twitch</h6>
+                <h6>API, Call-of-Duty API, Material UI
+                </h6>
+              </div>
+          </div>
+          <div class="projectCaption">
+            <h1 >Scheduler</h1>
+            <div class="line">
+              <h5>The Interview Scheduler is a single-page app that allows viewing, adding, 
+              <h5> and cancelling appointments with interviewers.</h5>
+            <h6>Tech-Stack: Axios React Webpack, Babel, Sass, Node.js, Express.Js Postgresql, Storybook, Webpack Dev Server, Jest, Testing Library, Cypress</h6>
+            </div>
+            
+        </div>
+          <div>
+            <img class="projectImage" src="assets/img/scheduler.png" alt=""/>
+          </div>
+          <div>
+            <img class="projectImage" src="assets/img/jungle.png" alt=""/>
+          </div>
+          <div class="projectCaption">
+            <h1 >Jungle On Rails</h1>
+            <div class="line">
+              <h5>A mini e-commerce application built with Rails 4.2 Using Stripe to order items</h5>
+              <h5>
+                and "make payments". Model and Feature testing is done with Rspec. Also using
+              </h5>
+              <h5>basic http authentication in ruby to secure the "admin" side the site.</h5>
+            </div>
+            
+        </div>
+        <div class="projectCaption">
+          <h1 >PasswordKeeper</h1>
+          <div class="line">
+            <h5>A secure app that shares passwords between employers of a specific organization.</h5>
+            <h6>Tech-Stack: Node.js, body-parser, chalk, express, jquery, morgan, node-sass-middleware, pg,</h6>
+            <h6>bcrypt, method-override</h6>
+          </div>
+          
+      </div>
+        <div>
+          <img class="projectImage" src="assets/img/pass1.png" alt=""/>
+        </div>
+        </div>
+        <!-- Stacks-->
         <section class="page-section" id="services">
             <div class="container">
                 <h2 class="text-center mt-0">Tech Skills</h2>
@@ -164,7 +268,7 @@
             </div>
         </section>
         <!-- Portfolio-->
-        <div id="portfolio">
+        <!-- <div id="portfolio">
             <div class="container-fluid">
                 <div class="row">
                     <div class="col-md-6 col-sm-6">
@@ -210,7 +314,7 @@
                     </div>
                 </div>
             </div>
-        </div>
+        </div> -->
         <!-- Call to action-->
         <section class="page-section bg-dark text-white" >
             <div class="container text-center">
