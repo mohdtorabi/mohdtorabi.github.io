@@ -1,16 +1,25 @@
-#projects {
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: space-between;
+.projects {
+  width: 100%; 
+  display:flex; 
+  flex-direction: column;
+  justify-content:center; 
+  align-items:center; margin: auto;
+  margin-top: 1rem;
 }
 
 .projectImage {
   width: 50vw;
+}
 
+
+
+.projectVideo {
+  width: 50vw;
+  height: 50vh;
+  object-fit: cover;
 }
 
 .projectCaption{
-  
   width: 50vw;
   display: flex;
   flex-direction: column;
@@ -43,4 +52,43 @@
 @keyframes blink-caret {
   from, to { border-color: transparent }
   50% { border-color: orange; }
+}
+
+
+/* #myVideo, #myVideo1, #myVideo2, #myVideo3 {
+  min-width: 80%; 
+  min-height: 80%;
+  width: 50vw;
+  height: 50vh;
+  right: 0;
+  bottom: 0;
+  min-width: 100%; 
+  min-height: 100%;
+} */
+
+.content {
+  text-align: center;
+  position: relative;
+  bottom: 0;
+  padding: 20px;
+  /* background-color: #f5714d !important; */
+  /* color: rgba(255, 255, 255, 0.5) !important; */
+  width: 100%;
+  /* padding: 20px; */
+}
+
+.myBtn, .myBtn1, .myBtn2, .myBtn3, .slidebtn {
+  width: 200px;
+  font-size: 18px;
+  padding: 10px;
+  border: none;
+  background-color: #f8f9fa;
+  color: #212529;
+  cursor: pointer;
+}
+
+.myBtn:hover, .myBtn1:hover, .myBtn2:hover, .myBtn3:hover {
+  color: #212529;
+    background-color: #e2e6ea;
+    border-color: #dae0e5;
 }
